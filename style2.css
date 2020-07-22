@@ -1,0 +1,95 @@
+body{
+    background-color: cornsilk;
+}
+.container1{
+    border-top: black solid 1px;
+    display: flex;
+}
+.drawing{
+    width: 30%;
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+}
+.hurry{
+    width: 40%;
+    border-right: black solid 1px;
+}
+.yours{
+    width: 30%;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+    border-left: black solid 1px ;
+}
+.drag{
+    padding-left: 0;
+    margin-left: 0;
+    width: 70%;
+    height: 100%;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+    display: grid;
+}
+.mini{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    margin-left: 0;
+    width: 100%;
+    padding: 5.7555px;
+}
+ul{
+    height: 100% ;
+
+    left: 0;
+    text-align: left;
+    margin-left: 0;
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.chinese{
+background-color: brown;
+height: 20%;
+}
+.japanese{
+    
+    background-color: chartreuse;
+    height: 20%;
+}
+.tai{
+    background-color: chocolate;
+    height: 20%;
+    
+}
+.sawa{
+    background-color: cyan;
+    height: 20%;
+    
+}
+.porta{
+    background-color: darkorchid;
+    height: 20%;
+    
+}
+.drag li{
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+    border-radius: 2px;
+}
+.imr{
+    margin-left: 10px;
+    box-sizing: border-box;
+    
+
+}
+img{
+    border-radius: 15px;
+}
+img:hover{
+    transform: scale(1.2);
+}
